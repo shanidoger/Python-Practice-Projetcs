@@ -1,11 +1,11 @@
 
-    #declare function called by monthly pay
-    #function have 2 arguments,
-    # So user will inform by monthly hours and rates
-def Monthlypay(hours, rate):
+    #Exercise 1
+    #declare function called calculate pay
+    #function have 2 arguments as hours and rate,
+    # So user will inform by monthly hours and per hour rates
+
+def Calculatepay(hours, rate):
         Pay = hours * rate
         return Pay
-    
 
-    #call fucntion and print 
-print(Monthlypay(160,12))
+print(Calculatepay(40,10))
